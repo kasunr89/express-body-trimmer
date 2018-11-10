@@ -1,0 +1,24 @@
+{
+  "name": "express-body-trimmer",
+  "version": "1.0.0",
+  "description": "Express Middleware to trim request body",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "body-trim"
+  ],
+  "author": "Kasun Ramadasa",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "node-mocks-http": "^1.7.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
