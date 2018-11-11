@@ -4,19 +4,18 @@ Express middleware to trim request body
 
 ### Dependencies
 
-Requires body-parser middleware.
+Requires `https://www.npmjs.com/package/body-parser middleware`.
 
 ### Installation
 
-npm i express-trimmer
+npm i express-body-trimmer
 
 ### How to use
 
+```shell
 const trimmer = require('express-body-trimmer');
+const bodyParser = require('body-parser');
 
-...
-// app initialization
-// use body parser
-...
-
-app.use(trimmer)
+app.use(bodyParser());
+app.use(trimmer());
+```
