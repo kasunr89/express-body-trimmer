@@ -1,6 +1,6 @@
 {
   "name": "express-body-trimmer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express Middleware to trim request body",
   "main": "index.js",
   "scripts": {
