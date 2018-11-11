@@ -8,7 +8,9 @@ Requires `https://www.npmjs.com/package/body-parser middleware`.
 
 ### Installation
 
+```shell
 npm i express-body-trimmer
+```
 
 ### How to use
 
