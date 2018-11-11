@@ -15,9 +15,9 @@ npm i express-body-trimmer
 ### How to use
 
 ```shell
-const trimmer = require('express-body-trimmer');
+const expressBodyTrimmer = require('express-body-trimmer');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser());
-app.use(trimmer());
+app.use(expressBodyTrimmer());
 ```
