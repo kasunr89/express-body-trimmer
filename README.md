@@ -4,7 +4,7 @@ Express middleware to trim request body
 
 ### Dependencies
 
-Requires `https://www.npmjs.com/package/body-parser middleware`.
+Requires [body-parser](https://github.com/expressjs/body-parser) middleware
 
 ### Installation
 
